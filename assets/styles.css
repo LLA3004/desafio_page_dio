@@ -46,7 +46,15 @@ h1{
 
 .invite {
     font-style: italic;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-image: linear-gradient(to bottom, rgb(189, 147, 231), steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text; 
     
+    color: rgb(49, 184, 194);
+
 }
 
 .banner-content{
@@ -54,7 +62,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
+    
 }
 .banner-content button {
     display: block;
@@ -75,7 +83,7 @@ h1{
 }
 
 footer{
-  
+
     margin-left: auto;
     margin-right: auto;
     height: 100px; /* Ajuste a altura conforme necessário */
